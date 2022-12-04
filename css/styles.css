@@ -4,16 +4,40 @@ body {
 }
 
 .header-link {
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .list {
     list-style: none;
 }
+
 a {
     text-decoration: none;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
+}
+
+.accent {
+    color: #4D5AE5;
+}
+
+.header-link-mail,
+.header-link-tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
