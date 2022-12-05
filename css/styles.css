@@ -180,3 +180,18 @@ a {
     border-radius: 4px;
     color: #FFFFFF;
 }
+
+.prtf-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.prtf-text {
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    letter-spacing: 0.02em;
+    color: #434455;
+}
