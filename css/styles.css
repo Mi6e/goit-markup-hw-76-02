@@ -1,5 +1,9 @@
 :root {
-
+    --accent-color: #4D5AE5;
+    --footer-text-color: #E7E9FC;
+    --hero-title-color: #FFFFFF;
+    --background-footer-color: #2E2F42;
+    --body-text-color: #434455;
 }
 
 body {
@@ -40,7 +44,7 @@ a {
 }
 
 .accent {
-    color: #4D5AE5;
+    color: var(--accent-color);
 }
 
 .header-link-mail,
@@ -49,7 +53,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--body-text-color);
 }
 
 .header-link-mail:hover,
@@ -60,7 +64,7 @@ a {
 }
 
 .hero {
-    background: #2E2F42;
+    background: var(--background-footer-color);
 }
 
 .hero-title {
@@ -68,7 +72,7 @@ a {
     font-size: 56px;
     line-height: calc(60 / 56);
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--hero-title-color);
 }
 
 .hero-btn {
@@ -82,6 +86,13 @@ a {
     color: #FFFFFF;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+    background: #4D5AE5;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 4px;
+}
+
 /* ---------INFO----------- */
 
 .info-title {
@@ -91,14 +102,14 @@ a {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-    
+
 .info-text {
     font-size: 16px;
     line-height: calc(24 / 16);
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--body-text-color);
 }
-    
+
 /* ----------action----------- */
 
 .action-title {
@@ -131,14 +142,14 @@ a {
     font-size: 16px;
     line-height: calc(24 / 16);
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--body-text-color);
 
 }
 
 /* ------------FOOTER----------- */
 
 .footer {
-    background: #2E2F42;
+    background: var(--background-footer-color);
 }
 
 .footer-logo {
@@ -149,14 +160,14 @@ a {
     line-height: 1.33;
     letter-spacing: 0.03em;
     color: #F4F4FD;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 .footer-text {
     font-size: 16px;
     line-height: calc(24 / 16);
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: var(--footer-text);
 }
 
 /* -------------PRTF---------- */
@@ -193,5 +204,7 @@ a {
     font-size: 16px;
     line-height: calc(24 / 16);
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--body-text-color);
 }
+
+
